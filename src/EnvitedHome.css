@@ -16,6 +16,8 @@
   height: 813px;
   z-index: 10;
 
+  border: 1px solid Black;
+
   background: linear-gradient(163.63deg, #501FC1 12.2%, #C346D5 96.78%);
 }
 
@@ -129,17 +131,9 @@
   position: absolute;
   width: 379px;
   height: 309px;
-  left: 7px;
+  left: -4px;
   top: 442px;
-  z-index: 2;
+  z-index: -2;
 }
 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

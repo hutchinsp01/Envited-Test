@@ -1,0 +1,299 @@
+.EnvitedCreate {
+    position: relative;
+    width: 375px;
+    height: 819px;
+
+    border: 1px solid Black;
+    background: #FFFFFF;
+}
+
+.CoverPhotoImage {
+    position: absolute;
+    width: 375px;
+    height: 210px;
+    left: 0px;
+    top: 3
+}
+
+.CoverPhotoButton {
+    position: absolute;
+    width: 160px;
+    height: 27px;
+    left: 200px;
+    top: 210px;
+
+    text-align: center;
+
+    background: rgba(114, 77, 249, 0.7);
+    border-radius: 20px;
+}
+
+.CoverPhotoButtonText {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    /* identical to box height */
+
+    text-decoration: none;
+
+    color: white;
+}
+
+
+.PreviewEventButton {
+    position: absolute;
+    width: 150px;
+    height: 27px;
+    left: 23px;
+    top: 657px;
+
+    text-align: center;
+    
+    background: rgba(114, 77, 249, 0.3);
+    border-radius: 20px;
+}
+
+.PreviewEventButtonText {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-decoration: none;
+
+    color: #501FC1;
+}
+
+.SaveEventButton {
+    position: absolute;
+    width: 150px;
+    height: 27px;
+    left: 205px;
+    top: 657px;
+
+    text-align: center;
+    
+    background: rgba(114, 77, 249, 0.7);
+    border-radius: 20px;
+}
+
+.SaveEventButtonText {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-decoration: none;
+
+    color: white;
+}
+
+.ShareEventButton {
+    position: absolute;
+    width: 332px;
+    height: 40px;
+    left: 23px;
+    top: 690px;
+
+    text-align: center;
+    
+    background: rgba(114, 77, 249, 0.7);
+    border-radius: 20px;
+}
+
+.ShareEventButtonText {
+    position: relative;
+    top: 7px;
+
+    font-family: 'Open Sans';
+    font-style: bold;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-decoration: none;
+
+    color: white;
+}
+
+.EventTimeFormEmoji {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    left: 20px;
+    top: 390px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #000000;
+
+    opacity: 0.8;
+}
+
+.EventStartTimeFormText {
+    position: absolute;
+    width: 350px;
+    height: 22px;
+    left: 70px;
+    top: 380px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #501FC1;
+}
+
+.EventEndTimeFormText {
+    position: absolute;
+    width: 350px;
+    height: 22px;
+    left: 70px;
+    top: 445px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+
+
+    color: #501FC1;
+}
+
+.EventStartTimeForm {
+    position: absolute;
+    width: 290px;
+    height: 22px;
+    left: 70px;
+    top: 420px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #501FC1;
+}
+
+.EventEndTimeForm {
+    position: absolute;
+    width: 290px;
+    height: 22px;
+    left: 70px;
+    top: 495px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+
+
+    color: #501FC1;
+}
+
+.EventTimeFormBodyText {
+    position: absolute;
+    width: 273px;
+    height: 27px;
+    left: 70px;
+    top: 515px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: rgba(80, 31, 193, 0.5);
+}
+
+.EventLocationFormEmoji {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    left: 20px;
+    top: 560px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #000000;
+
+    opacity: 0.8;
+}
+
+.EventLocationFormTitleText {
+    position: absolute;
+    width: 350px;
+    height: 22px;
+    left: 70px;
+    top: 555px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #501FC1;
+}
+
+.EventLocationForm {
+    position: absolute;
+    width: 290px;
+    height: 22px;
+    left: 70px;
+    top: 595px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+
+
+    color: #501FC1;
+}
+
+.EventLocationFormBodyText {
+    position: absolute;
+    width: 273px;
+    height: 27px;
+    left: 70px;
+    top: 611px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: rgba(80, 31, 193, 0.5);
+}
+

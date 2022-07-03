@@ -2,7 +2,7 @@ import NavBarLanding from './envited/nav-bar-landing.png';
 import ProductImageLeft from './envited/product-image-left.png';
 import ProductImageRight from './envited/product-image-right.png';
 import ProductImageMiddle from './envited/product-image-middle.png';
-import SocialMediaIcons from './envited/social-media-icons2.png';
+import SocialMediaIcons from './envited/social-media-icons.png';
 import './EnvitedHome.css';
 
 function EnvitedHome() {
@@ -13,11 +13,11 @@ function EnvitedHome() {
       <EnvitedNextEventButton />
 
       {/* Given product images have borders, so they look weird
-      No way of fixing without better resources */}
+      No way of fixing without better resources unless I just use trial and error placement*/}
       <EnvitedProductImage />
       
       {/* Need to fix social media icons */}
-      <EnvitedSocialMediaIcons />
+      <EnvitedSocialMediaIcons/>
     </div>
   );
 }
@@ -47,18 +47,23 @@ function EnvitedNextEventButton() {
 
 function EnvitedProductImage() {
   return(
-    <div className="EnvitedProductImage">
-      <img src={ProductImageLeft} className="EnvitedProductImageLeft" alt="Product" />
-      <img src={ProductImageMiddle} className="EnvitedProductImageMiddle" alt="Product" />
-      <img src={ProductImageRight} className="EnvitedProductImageRight" alt="Product" />
-    </div>
+    <>
+      <div className="EnvitedProductImage">
+        <img src={ProductImageLeft} className="EnvitedProductImageLeft" alt="Product" />
+        <img src={ProductImageMiddle} className="EnvitedProductImageMiddle" alt="Product" />
+        <img src={ProductImageRight} className="EnvitedProductImageRight" alt="Product" />
+      </div>
+    </>
   )
 }
 
 function EnvitedSocialMediaIcons() {
-  <div >
-    <img src={SocialMediaIcons} className="EnvitedSocialMediaIcons" alt="Social Media" />
-  </div>
+  return (
+    <div >
+      <img src={SocialMediaIcons} className="EnvitedSocialMediaIcons" alt="Social-Media" />
+    </div>
+  )
+  
 }
 
 export default EnvitedHome;
