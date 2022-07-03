@@ -1,0 +1,145 @@
+.EnvitedNavbar {
+  text-align: center;
+}
+
+.EnvitedNavBarLanding {
+  position: absolute;
+  width: 346px;
+  height: 30px;
+  left: 14px;
+  top: 107px;
+}
+
+.EnvitedHome {
+  position: relative;
+  width: 375px;
+  height: 813px;
+  z-index: 10;
+
+  background: linear-gradient(163.63deg, #501FC1 12.2%, #C346D5 96.78%);
+}
+
+.EnvitedHomeParagraphTitle {
+  position: absolute;
+  width: 335px;
+  height: 60px;
+  left: 20px;
+  top: 213px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 30px;
+  /* or 94% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.32px;
+
+  color: #FFFFFF;
+
+}
+
+.EnvitedHomeParagraphBody {
+  position: absolute;
+  width: 295px;
+  height: 40px;
+  left: 40px;
+  top: 306px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.32px;
+
+  color: #FFFFFF;
+}
+
+.EnvitedNextEventButton {
+  position: absolute;
+  left: 20.53%;
+  right: 20.53%;
+  top: 46.37%;
+  bottom: 47.6%;
+  text-align: center;
+
+  background: linear-gradient(107.04deg, #06D6A0 48.99%, #5794F7 118.32%);
+  border-radius: 100px;
+}
+
+.EnvitedNextEventButtonText {
+  position: relative;
+  top: 25%;
+  text-align: center;
+
+  text-decoration: none;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+
+  letter-spacing: -0.32px;
+
+  color: #FFFFFF;
+}
+
+.EnvitedProductImageLeft {
+  position: absolute;
+  width: 96px;
+  height: 171px;
+  left: 16px;
+  top: 498px;
+
+  box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.EnvitedProductImageRight {
+  position: absolute;
+  width: 96px;
+  height: 171px;
+  left: 262px;
+  top: 498px;
+
+  box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.EnvitedProductImageMiddle {
+  position: absolute;
+  width: 136px;
+  height: 242px;
+  left: 119px;
+  top: 460px;
+
+  box-shadow: 0px 0px 40px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+}
+
+.EnvitedSocialMediaIcons {
+  position: absolute;
+  width: 379px;
+  height: 309px;
+  left: 7px;
+  top: 442px;
+  z-index: 2;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
